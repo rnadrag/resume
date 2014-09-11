@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 11 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified by Roxana Nadrag 
+% 
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking}
+% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+\moderncvcolor{blue}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document marginshttps://88df6ea0630aed8027ff-0caf779119a6537399728d4d80523795.ssl.cf5.rackcdn.com/xkpsnmjrktqs/page/b1886b24586b9b08a8c48fa782c651b752fbb804.jpeg
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Roxana} % Your first name
+\familyname{Nadrag} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+
+\address{College Ring 3, Mailbox 793, Jacobs University Bremen, 28759}{Bremen, Germany}
+\mobile{(+49) 160-981-65-971}
+\email{roxana.ndg@gmail.com}
+%\homepage{www.roxananadrag.com}
+ % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+
+
+
+%----------------------------------------------------------------------------------------
+\usepackage{multicol}
+ 
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\begin{multicols*}{2}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Work experience}
+\subsection{Professional experience}
+\vspace{0.5mm}
+\cventry{}{Bloomberg LP, London \hspace{20mm} (June 2014 - Aug 2014)}{Software Developer Intern - R\&D Department}{}{\vspace{1mm}}{ As part of the UI Server Side Infrastructure Team I have worked on testing and improving the current algorithms for \mbox{generating}/applying patches between two different versions of binary bundles (used in automatic software updates). I have also implemented two new algorithms that operate as a binary diff tool. 
+Both implementations produce smaller patches by 90\% and by 50\% respectively. 
+All work was done in C and C++. The testing part was done in Python and Bash.}{}
+
+
+\vspace{2mm}
+
+\cventry{}{Robotics Institute Bremen \hspace{16mm} (Feb 2014 - May 2014)}{Student Assistant}{}{\vspace{1mm}}{I worked on pySPACE project, a machine learning tool for \mbox{signal} processing and classification. I wrote wrapper \mbox{functions} for several machine learning tools (e.g. Shogun), which allowed the user to manipulate data by simply using a YAML config file. The work was done both in Python and C++ .}{}
+\vspace{2mm}
+
+\cventry{}{Fraunhofer ITWM, Kaiserslautern \hspace{3mm} (June 2013 - Aug 2013) }{Software Developer Intern - Image Processing Team}{}{\vspace{1mm}}{I have extended the image registration tool for recovering \mbox{parameters} of rotation, translation and scaling by \mbox{implementing} a new algorithm based on Fast Fourier Transform method which improved accuracy of parameters detection by 20\% .}{}
+\vspace{0mm}
+
+\subsection{Research and academic experience}
+\cventry{}{Jacobs University Bremen	\hspace{22mm} (Sept 2014 to date)}{Teaching Assistant}{}{\vspace{1mm}}{Advanced Computer Science - Formal Languages and Logic}{}
+\vspace{2mm}
+
+\cventry{}{Jacobs University Bremen \hspace{16mm} (Feb 2014 - May 2014)}{Student Assistant for Mathematics Support Center}{}{}{}{}
+
+\vspace{2mm}
+
+\cventry{}{Jacobs University Bremen \hspace{22mm} (Sept 2014 to date)}{Student Assistant for KWARC  research group }{}{\vspace{1mm}}{I work with the Knowledge Adaptation and Reasoning for \mbox{Content} group where I am developing a Scala framework which will allow to work with different logics in a uniform format.}{}
+\vspace{2mm}
+
+\cventry{}{Jacobs University Bremen \hspace{15mm} (Sept 2013 - Dec 2013)}{Teaching Assistant}
+{}{\vspace{1mm}}{Computer Science Lab - C/Python programming}{}{}
+\vspace{2mm}
+
+
+
+\cventry{}{Jacobs University Bremen \hspace{16mm} (Feb 2013 - May 2013)}{Student Assistant}{}{\vspace{1mm}}{Linear Algebra, Statistics and Probability Course}{}{}{}{}
+
+\columnbreak
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\vspace{2mm}
+\cventry{}{Jacobs University Bremen \hspace{25mm} (Sept 2012 to date)}{B.Sc. Applied Computational Mathematics}{}{\vspace{1mm}}{Computer Science focus - graduation date June 2015}{GPA in major: 1.3 on a 1.0 - 5.0 scale (1.0 = 100\%)}
+
+\vspace{2mm}
+\cventry{}{Polytechnic University Bucharest \hspace{10mm} (Oct 2011 - Feb 2012)}{B.Sc. Computer Science}{}{\vspace{1mm}}
+{Continued studies at Jacobs University after one semester}{}
+\vspace{2mm}
+
+\cventry{}{Mathematics-Informatics \hspace{19mm} (Sept 2007 - July 2011)}{Alexandru Dimitrie Ghica National High School}{Alexandria, Romania}{}{\vspace{0.5mm}}{GPA: 10.0 on a 1.0 - 10.0 scale (10.0 = 100\%) }{}
+
+\vspace{2mm}
+\section{Technical skills}
+
+\renewcommand{\listitemsymbol}{~} % Changes the symbol used for lists
+\begin{itemize}
+\vspace{2mm}
+\item{Good knowledge - C, C++, Linux}
+
+\item{Intermediate knowledge - ML, Python, Matlab, Latex}
+
+\item{Basic knowledge - Java, Scala, SQL, PHP, Bash}{}
+
+\end{itemize}
+
+%\vspace{8.5 mm}
+\vspace{1mm}
+
+\section{Awards and Honors}
+\vspace{2mm}
+\cvitem{2014}{Bosch foundation Mathematics scholarship for \mbox{females} in Mathematics}
+\vspace{1mm}
+\cvitem{2012 - 2014}{President's List for good academic results, Jacobs University Bremen}
+\vspace{1mm}
+\vspace{1mm}
+\cvitem{2012}{Scholarship for academic achievement, Jacobs \mbox{University} Bremen}
+\vspace{1mm}
+\cvitem{2009 - 2011}{Silver \& Bronze Medal, National Mathematics Olympiad, \mbox{Romania}}
+
+\vspace{2mm}
+\section{Communication skills}
+\vspace{2mm}
+\renewcommand{\listitemsymbol}{~} % Changes the symbol used for lists
+\begin{itemize}
+\item{Romanian - Mother tongue}
+\item{English - Fluent}
+\item{French, Spanish - Intermediate}
+\item{German, Italian - Basic}
+\end{itemize}
+\vspace{2mm}
+
+\section{Interests}
+\vspace{2mm}
+\begin{itemize}
+
+\item{Discrete Mathematics}
+\item{Travelling}
+\item{Interior Design}
+
+\end{itemize}
+\end{multicols*}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
